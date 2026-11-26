@@ -12,7 +12,7 @@ Video animasi edukasi stickman tentang sejarah Kerajaan Majapahit. Gambar, anima
 | `paregreg` | Part 3: Perang Paregreg (1404-1406) | 9:16 | Inggris, subtitle Indonesia | [naskah](docs/naskah/paregreg.md) | [gambar](docs/preview/paregreg.jpg) |
 | `majapahit_full` | Majapahit versi penuh (sinematik, sekitar 6 menit) | 16:9 | Indonesia dan Inggris | [naskah](docs/naskah/majapahit_full.md) | [gambar](docs/preview/majapahit_full.jpg) |
 
-File video tidak disimpan di repo ini. Video versi upload ada di `~/reels/Upload/`.
+File video tidak disimpan di dalam repo. Video versi upload ada di `~/reels/Upload/`, dan cadangannya di halaman [Releases](https://github.com/TanyaPapa/video-majapahit/releases). Untuk melanjutkan pekerjaan, baca [CATATAN-LANJUTAN.md](CATATAN-LANJUTAN.md).
 
 ## Struktur
 
