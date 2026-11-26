@@ -1,0 +1,21 @@
+.DS_Store
+__pycache__/
+*.pyc
+.env
+
+# hasil render dan file sementara
+*.mp4
+*.m4a
+*.mp3
+**/seg/
+**/stills/
+**/audio/*.wav
+!skills/stick-figure/engine/template/audio/vo_kokoro.wav
+
+# dependensi (dipasang oleh kit/setup.sh)
+kit/node_modules/
+kit/models/
+kit/.venv/
+kit/.npm-cache/
+install-log.txt
+skills/stick-figure/engine/kitpath.txt
