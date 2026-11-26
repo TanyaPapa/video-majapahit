@@ -6,13 +6,15 @@ Dibuat sebelum sesi Claude Code lama ditutup, supaya pekerjaan bisa dilanjutkan 
 
 Pindahkan sesi ke `~/reels/Project`, lalu kirim:
 
-> Baca README.md dan CATATAN-LANJUTAN.md, lalu bantu saya lanjutkan proyek video stickman ini.
+> Baca README.md, CATATAN-LANJUTAN.md, dan docs/catatan-claude, lalu bantu saya lanjutkan proyek video stickman ini.
 
 ## Yang sudah selesai
 
 - Skill `/stick-figure` terpasang di Mac (paket asli untuk Windows, sudah disesuaikan untuk macOS).
 - Trilogi 9:16 dengan narasi Inggris dan subtitle Indonesia: Berdirinya Majapahit (1293), Perang Bubat (1357), Perang Paregreg (1404-1406).
-- Versi narasi Indonesia dan versi penuh 16:9 dibuat di sesi lain. Rinciannya ada di [README.md](README.md).
+- Versi narasi Indonesia (suara Ardi, edge-tts) untuk ketiga reel.
+- Versi penuh 16:9 sekitar 6 menit untuk YouTube: narasi dan subtitle Indonesia (`majapahit_full_indo-upload.mp4`), ditambah trek audio Inggris terpisah (`majapahit_full_en-audio.m4a`). Sumbernya di `_library/majapahit_full`, cara pakainya di [README.md](README.md).
+- Catatan memori Claude disalin ke [docs/catatan-claude](docs/catatan-claude). Sesi baru tidak memuatnya otomatis, jadi minta Claude membacanya.
 - Proyek dirapikan dan diunggah ke repo private `TanyaPapa/video-majapahit`.
 - Video jadi dicadangkan sebagai aset di halaman **Releases** repo.
 
@@ -47,6 +49,8 @@ File lokal tidak ikut hilang saat berganti akun Claude, selama Mac dan akun macO
 
 ## Catatan isi yang masih terbuka
 
+- Naskah versi penuh 16:9 sudah diperiksa ulang sejarahnya. Reel 9:16 lama masih memakai kalimat sebelum koreksi (antara lain jumlah pasukan Mongol, penyergapan, catatan sumber Bubat, detail Paregreg). Pengguna memutuskan **tidak** membuat ulang.
+- Versi penuh belum ditonton utuh oleh Claude, dan sekitar 14 kalimat audio Inggrisnya terdengar agak cepat.
 - Part 3 menyebut Majapahit runtuh "sekitar abad ke-16" sesuai brief. Sebagian sejarawan memakai 1478 (abad ke-15). Belum diputuskan apakah perlu diubah.
 - Detail Perang Bubat bersumber dari kidung yang ditulis jauh setelah kejadian dan masih diperdebatkan.
 - Pelafalan nama Jawa dan Sunda oleh suara Inggris kurang tepat di versi Inggris.
