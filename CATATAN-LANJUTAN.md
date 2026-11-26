@@ -6,7 +6,9 @@ Dibuat sebelum sesi Claude Code lama ditutup, supaya pekerjaan bisa dilanjutkan 
 
 Pindahkan sesi ke `~/reels/Project`, lalu kirim:
 
-> Baca README.md, CATATAN-LANJUTAN.md, dan docs/catatan-claude, lalu bantu saya lanjutkan proyek video stickman ini.
+> Baca README.md, CATATAN-LANJUTAN.md, PEMASANGAN.md, dan docs/catatan-claude, lalu bantu saya lanjutkan proyek video stickman ini.
+
+Cara pemasangan dan cek kesiapan ada di [PEMASANGAN.md](PEMASANGAN.md).
 
 ## Yang sudah selesai
 
@@ -57,14 +59,4 @@ File lokal tidak ikut hilang saat berganti akun Claude, selama Mac dan akun macO
 
 ## Memulihkan di Mac lain
 
-```bash
-git clone https://github.com/TanyaPapa/video-majapahit.git ~/reels/Project
-```
-
-```bash
-bash ~/reels/Project/scripts/pasang.sh
-```
-
-```bash
-gh release download backup-2026-11-26 --repo TanyaPapa/video-majapahit --dir ~/reels/Upload
-```
+Ikuti [PEMASANGAN.md](PEMASANGAN.md) bagian B.
